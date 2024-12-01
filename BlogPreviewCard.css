@@ -10,9 +10,9 @@ body {
     padding: 0;
     background-color:hsl(47, 88%, 63%);
 }
-.container{
+main{
     width: 350px;
-    height: 500px;
+    /* height: 500px; */
     background-color:  hsl(0, 0%, 100%);
     border: 1px solid black;
     border-radius: 25px;
@@ -34,9 +34,10 @@ body {
     padding-top: 20px;
     text-align: initial;
 }
-.info-container button{
+.info-container .Learning{
     width: 90px;
     background-color:hsl(47, 88%, 63%);
+    text-align: center;
     color: black;
    border: none;
    padding: 6px;
@@ -47,6 +48,7 @@ body {
 }
 .person img{
     border-radius: 50%;
+    object-fit: contain;
 }
 .person p{
     font-weight: 600;
